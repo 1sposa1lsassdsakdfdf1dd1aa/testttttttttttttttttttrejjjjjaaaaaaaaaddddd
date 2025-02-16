@@ -100,4 +100,4 @@ if __name__=="__main__":
    stream_url=app.get_channel_info(channel["name"],channel["slug"])
    channel["stream_link"]=stream_url
  #Generate Playlist and Save
-  universal_playlist_converter("jadoo_playlist.m3u",all_channel)
+  universal_playlist_converter("playlist.m3u",all_channel)
